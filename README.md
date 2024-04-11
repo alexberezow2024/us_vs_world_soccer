@@ -89,4 +89,4 @@ us_world <- cleaned_data %>%
 ```
 
 ## Tableau
-This finalized data set was uploaded into Tableau and [visualized as an interactive world map](https://public.tableau.com/app/profile/alex.berezow/viz/USMNTvsWorld/Dashboard1). Here is a screenshot of the map.
+This finalized data set was uploaded into Tableau and [visualized as an interactive world map](https://public.tableau.com/app/profile/alex.berezow/viz/USMNTvsWorld/Dashboard1). Here is a [screenshot](world_map_screenshot.png) of the map.
