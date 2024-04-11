@@ -1,5 +1,14 @@
 # U.S. Men's National Team vs. World in Soccer (1872 - Jan 2024)
 
+## Table of Content
+- [Project Overview](#project-overview)
+- [Data Source](#data-source)
+- [Tools](#tools)
+- [Data Preparation](#data-preparation)
+  - [SQL](#sql)
+  - [R](#r)
+- [Tableau](#tableau)
+
 ## Project Overview
 The goal of this project is to create a world map showing the results of the U.S. Men's National Team (soccer) against every country it has played. The data is from 1872 through January 2024.
 
@@ -13,6 +22,7 @@ The source file is ['results.csv'](results.csv), which was created by Mart Jüri
 - Tableau
 
 ## Data Preparation
+### SQL
 SQL was used to narrow down the data set to only matches played by the United States. Then, the results (wins, draws, losses) were grouped by opponent and summed.
 
 ```sql
@@ -56,6 +66,7 @@ ORDER BY opponent, (
     END)
 ```
 
+### R
 This data was expored to R Studio, where it was easier to pivot the table and replace null values with zero. Percentages were calculated for wins, draws, and losses.
 
 ```R
