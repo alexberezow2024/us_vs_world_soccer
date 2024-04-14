@@ -1,6 +1,6 @@
 # U.S. Men's National Team vs. World in Soccer (1872 - Jan 2024)
 
-## Table of Content
+## Table of Contents
 - [Project Overview](#project-overview)
 - [Data Source](#data-source)
 - [Tools](#tools)
@@ -8,6 +8,8 @@
   - [SQL](#sql)
   - [R](#r)
 - [Tableau](#tableau)
+
+![Tableau screenshot](https://github.com/alexberezow2024/us_vs_world_soccer/blob/cbe3de9c1dab8b2cedb2e0509d255740e884e6f8/world_map_screenshot.png)
 
 ## Project Overview
 The goal of this project is to create a world map showing the results of the U.S. Men's National Team (soccer) against every country it has played. The data is from 1872 through January 2024.
@@ -89,4 +91,4 @@ us_world <- cleaned_data %>%
 ```
 
 ## Tableau
-This finalized data set was uploaded into Tableau and [visualized as an interactive world map](https://public.tableau.com/app/profile/alex.berezow/viz/USMNTvsWorld/Dashboard1). Here is a [screenshot](world_map_screenshot.png) of the map.
+This finalized data set was uploaded into Tableau and [visualized as an interactive world map](https://public.tableau.com/app/profile/alex.berezow/viz/USMNTvsWorld/Dashboard1). Here is a [screenshot](world_map_screenshot.png) of the map. (Alternatively, see the top of this README file.)
